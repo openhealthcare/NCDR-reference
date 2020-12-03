@@ -18,7 +18,7 @@ SECRET_KEY: !vault |
           32376631333534646666313161376339613263653461363738663332393466303735396435646435
           3635333664386637303239636237663435363162333464336437
 
-GIT_REPO: "https://github.com/nhsengland/{{ application_name }}.git"
+GIT_REPO: "https://github.com/openhealthcare/{{ application_name }}.git"
 GIT_BRANCH: v0.4
 
 PROJECT_PATH: "/home/ubuntu/{{ application_name }}"
